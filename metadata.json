@@ -1,0 +1,6 @@
+{
+  "name": "RS Financial Services",
+  "description": "Premium wealth management and financial advisory services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
