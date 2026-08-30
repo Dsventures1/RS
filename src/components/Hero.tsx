@@ -37,7 +37,7 @@ const Hero = () => {
       <div className="relative z-20 container mx-auto">
         <div className="max-w-2xl space-y-6">
           <span className="text-gray-300 font-bold tracking-[0.2em] text-xs md:text-sm uppercase">ADVISE · PLAN · GROW</span>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] text-white font-sans drop-shadow-lg">Build wealth with clarity.<br/>Grow with confidence.</h1>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] text-white font-sans drop-shadow-lg">Build wealth with clarity and<br/>grow with confidence.</h1>
           <p className="text-lg md:text-xl text-gray-200 leading-relaxed font-medium max-w-xl drop-shadow-md">Personalized financial guidance, investment solutions and long-term wealth strategies designed around your goals.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 pt-8">
