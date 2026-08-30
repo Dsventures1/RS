@@ -23,10 +23,10 @@ const Footer = () => {
                 <Link to="/services" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Services</Link>
                 <Link to="/contact" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Contact Us</Link>
              </div>
-             <div className='space-y-3'>
+             <div className='space-y-3 flex flex-col'>
                 <h4 className='font-bold mb-4 text-base'>Offerings</h4>
                 {['Mutual Funds', 'Equity & ETFs', 'Portfolio Management Services (PMS)', 'Insurances'].map(link => (
-                    <p key={link} className='opacity-70 cursor-pointer hover:text-blue-300 transition-colors'>{link}</p>
+                    <Link key={link} to="/services" className='opacity-70 cursor-pointer hover:text-blue-300 transition-colors w-fit'>{link}</Link>
                 ))}
              </div>
              <div className='space-y-3'>
@@ -37,12 +37,7 @@ const Footer = () => {
              </div>
         </div>
         
-        {/* Legal/Compliance Links */}
-        <div className="pt-8 border-t border-white/20 flex flex-wrap gap-x-6 gap-y-2 text-[12px] opacity-70 mb-8">
-            {['Terms of Service', 'Privacy Policy', 'Disclaimer', 'Disclosure Statement', 'Compliance & Regulatory Info', 'Fee Schedule'].map(link => (
-                <span key={link} className="cursor-pointer hover:text-blue-300 transition-colors">{link}</span>
-            ))}
-        </div>
+
 
         <div className="pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center text-[11px] opacity-60 gap-4 text-center md:text-left">
             <p>&copy; 2026 RS Financial Services. All rights reserved.</p>

@@ -8,7 +8,6 @@ import FounderCard from '../components/AboutUsSections/FounderCard';
 import TrustCards from '../components/AboutUsSections/TrustCards';
 import ApproachSteps from '../components/AboutUsSections/ApproachSteps';
 import Commitment from '../components/AboutUsSections/Commitment';
-import FinalCTA from '../components/AboutUsSections/FinalCTA';
 
 const AboutUs = () => {
   return (
@@ -20,13 +19,11 @@ const AboutUs = () => {
             <p className="text-[#2563EB] font-semibold tracking-wider text-xs md:text-sm uppercase mb-4">ABOUT RS FINANCIAL SERVICES</p>
             <h1 className="text-3xl md:text-5xl font-bold text-[#123B7A] mb-6">Helping you build wealth with clarity and confidence.</h1>
             <p className="text-[#64748B] text-base md:text-lg max-w-2xl mx-auto mb-10">RS Financial Services helps individuals and families make informed financial decisions through thoughtful investment planning, wealth management and long-term financial strategies.</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-[#123B7A] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#0B2F6B]">Book a Consultation</a>
-                <a href="/services" className="border border-[#123B7A] text-[#123B7A] px-8 py-3 rounded-md font-semibold hover:bg-white">Explore Our Approach →</a>
-            </div>
         </section>
 
         <TrustMetrics />
+
+        <Commitment />
 
         {/* Who We Are Section */}
         <section className="py-12 md:py-20 px-6 md:px-12 bg-white">
@@ -49,8 +46,6 @@ const AboutUs = () => {
         <Philosophy />
         <TrustCards />
         <ApproachSteps />
-        <Commitment />
-        <FinalCTA />
 
       </main>
       <Footer />
