@@ -17,7 +17,7 @@ const About = () => {
         <div className="w-full md:w-[48%] space-y-6">
           <span className="text-[#2563EB] font-bold tracking-[2px] text-xs uppercase">WHO WE ARE</span>
           <h2 className="text-3xl md:text-[48px] font-extrabold text-[#123B8F] leading-[1.15]">
-            Your Wealth Deserves More Than Just an Investment.
+            Your wealth deserves more than just an investment.
           </h2>
           <div className="space-y-4">
             <p className="text-[#52627A] text-base md:text-[18px] leading-[1.7]">

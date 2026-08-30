@@ -50,7 +50,6 @@ const Header = () => {
         <Link to="/" className={getLinkClass('/')}>Home</Link>
         <Link to="/about" className={getLinkClass('/about')}>About Us</Link>
         <Link to="/services" className={getLinkClass('/services')}>Services</Link>
-        <Link to="/why-us" className={getLinkClass('/why-us')}>Why Us</Link>
         <Link to="/blogs" className={location.pathname.startsWith('/blogs') 
           ? `hover:text-[#2563EB] relative text-[#2563EB] after:absolute after:bottom-[-20px] after:left-0 after:w-full after:h-[2px] after:bg-[#2563EB]`
           : "hover:text-[#2563EB]"}>Blogs</Link>
@@ -130,7 +129,6 @@ const Header = () => {
           <Link to="/" onClick={() => setIsOpen(false)} className={`text-sm font-semibold ${location.pathname === '/' ? 'text-[#2563EB]' : 'text-[#173B7A]'}`}>Home</Link>
           <Link to="/about" onClick={() => setIsOpen(false)} className={`text-sm font-semibold ${location.pathname === '/about' ? 'text-[#2563EB]' : 'text-[#173B7A]'}`}>About Us</Link>
           <Link to="/services" onClick={() => setIsOpen(false)} className={`text-sm font-semibold ${location.pathname === '/services' ? 'text-[#2563EB]' : 'text-[#173B7A]'}`}>Services</Link>
-          <Link to="/why-us" onClick={() => setIsOpen(false)} className={`text-sm font-semibold ${location.pathname === '/why-us' ? 'text-[#2563EB]' : 'text-[#173B7A]'}`}>Why Us</Link>
           <Link to="/blogs" onClick={() => setIsOpen(false)} className={`text-sm font-semibold ${location.pathname.startsWith('/blogs') ? 'text-[#2563EB]' : 'text-[#173B7A]'}`}>Blogs</Link>
           
           {/* Mobile Tools Submenu */}

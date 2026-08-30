@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -15,11 +16,12 @@ const Footer = () => {
                 </div>
                 <div className="font-bold text-xl tracking-tight text-white">RS Financial Services</div>
              </div>
-             <div className='space-y-3'>
+             <div className='space-y-3 flex flex-col'>
                 <h4 className='font-bold mb-4 text-base'>Company</h4>
-                {['Home', 'About Us', 'Why RS Financial Services', 'Contact Us'].map(link => (
-                    <p key={link} className='opacity-70 cursor-pointer hover:text-blue-300 transition-colors'>{link}</p>
-                ))}
+                <Link to="/" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Home</Link>
+                <Link to="/about" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>About Us</Link>
+                <Link to="/services" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Services</Link>
+                <Link to="/contact" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Contact Us</Link>
              </div>
              <div className='space-y-3'>
                 <h4 className='font-bold mb-4 text-base'>Offerings</h4>

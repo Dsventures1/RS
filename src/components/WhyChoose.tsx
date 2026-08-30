@@ -2,7 +2,7 @@ import React from 'react';
 import { Award, Target, Layers, ShieldCheck, Headphones, HeartHandshake } from 'lucide-react';
 
 const features = [
-  { icon: Award, title: 'Decades of Expertise', desc: 'Experience-driven financial guidance built around long-term thinking.' },
+  { icon: Award, title: 'In Market Experience', desc: 'Experience-driven financial guidance built around long-term thinking.' },
   { icon: Target, title: 'Personalized Investment Plans', desc: 'Strategies designed around your goals, risk profile and financial journey.' },
   { icon: Layers, title: 'Wide Range of Investment Solutions', desc: 'Access to diversified investment products across multiple asset classes.' },
   { icon: ShieldCheck, title: 'Transparency You Can Trust', desc: 'Clear communication, transparent processes and no unnecessary complexity.' },
@@ -17,7 +17,7 @@ const WhyChoose = () => {
         {/* SECTION HEADER */}
         <div className="text-center mb-[60px]">
           <span className="text-[#2563EB] font-bold tracking-[2px] text-[14px] uppercase">WHY RS FINANCIAL SERVICES</span>
-          <h2 className="text-[48px] font-extrabold text-[#123B8F] leading-[1.15] mt-4">A More Thoughtful Approach to Wealth</h2>
+          <h2 className="text-[48px] font-extrabold text-[#123B8F] leading-[1.15] mt-4">A more thoughtful approach to wealth</h2>
           <p className="text-[#52627A] text-[17px] leading-[1.7] max-w-[720px] mx-auto mt-6">
             Financial decisions are personal. Our approach combines experience, thoughtful planning and ongoing guidance to help you make confident decisions at every stage of your financial journey.
           </p>

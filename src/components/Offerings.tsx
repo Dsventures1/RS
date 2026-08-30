@@ -18,8 +18,8 @@ const Offerings = () => {
       <div className="max-w-[1500px] mx-auto px-4 md:px-6">
         {/* HERO */}
         <div className="text-center mb-12 md:mb-[80px] pt-4 md:pt-[60px]">
-          <span className="text-[#2563EB] font-bold tracking-[3px] text-[12px] md:text-[14px] uppercase">OUR SOLUTIONS</span>
-          <h2 className="text-3xl md:text-[56px] font-bold text-[#123B8F] leading-[1.1] mt-4">Solutions Designed Around Your Financial Goals</h2>
+          <span className="text-[#2563EB] font-bold tracking-[3px] text-2xl md:text-3xl uppercase">OUR SOLUTIONS</span>
+          <h2 className="text-2xl md:text-[32px] lg:text-[38px] font-bold text-[#123B8F] leading-[1.2] mt-4">Services designed around your financial goals</h2>
           <p className="text-[#52627A] text-base md:text-[18px] leading-[1.7] max-w-[750px] mx-auto mt-4 md:mt-6">
             From wealth creation to protection and diversification, explore investment solutions designed to support every stage of your financial journey.
           </p>
@@ -48,18 +48,6 @@ const Offerings = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* FINAL CTA */}
-        <div className="bg-[#F4F8FD] rounded-[24px] p-6 md:p-[60px] text-center mt-12 md:mt-[100px]">
-          <h3 className="text-2xl md:text-[36px] font-bold text-[#123B8F] mb-4">Let’s Build a Strategy Around Your Goals.</h3>
-          <p className="text-[#52627A] text-base md:text-[18px] mb-8 max-w-[600px] mx-auto">
-            Speak with RS Financial Services to explore the right investment and wealth solutions for your financial journey.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-[#123B8F] text-white px-8 py-4 rounded-[12px] shadow-md hover:bg-[#1e4ba1] transition-colors font-semibold w-full sm:w-auto text-center">Book a Consultation</a>
-            <a href="/services" className="bg-white text-[#123B8F] border border-[#123B8F] px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#F4F8FD] transition-colors font-semibold w-full sm:w-auto text-center">Explore Services</a>
-          </div>
         </div>
       </div>
     </section>
