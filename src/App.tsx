@@ -14,6 +14,8 @@ import WhyUsPage from './pages/WhyUsPage';
 import BlogsPage from './pages/BlogsPage';
 import ArticleDetailPage from './pages/ArticleDetailPage';
 import ContactUsPage from './pages/ContactUsPage';
+import MFCalculatorsPage from './pages/MFCalculatorsPage';
+import ToolsCalculatorsPage from './pages/ToolsCalculatorsPage';
 
 export default function App() {
   return (
@@ -39,6 +41,9 @@ export default function App() {
         <Route path="/why-us" element={<WhyUsPage />} />
         <Route path="/blogs" element={<BlogsPage />} />
         <Route path="/blogs/:slug" element={<ArticleDetailPage />} />
+        <Route path="/tools" element={<ToolsCalculatorsPage />} />
+        <Route path="/mf-calculators" element={<MFCalculatorsPage />} />
+        <Route path="/tools-calculators" element={<ToolsCalculatorsPage />} />
         <Route path="/contact" element={<ContactUsPage />} />
       </Routes>
     </BrowserRouter>

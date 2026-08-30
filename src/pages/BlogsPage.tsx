@@ -138,7 +138,7 @@ const BlogsPage = () => {
             <p className="text-[#E2E8F0] text-base md:text-lg">Speak with RS Financial Services to discuss your goals and explore a more thoughtful approach to financial planning.</p>
             <div className="flex justify-center items-center w-full pt-2">
               <a 
-                href="https://wa.me/919987974931" 
+                href="https://wa.link/fudqk8" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#0B2F6B] px-6 sm:px-10 py-3.5 sm:py-4 rounded-lg font-semibold hover:bg-[#F4F8FC] transition-colors whitespace-nowrap min-h-[50px] w-auto max-w-full text-center"

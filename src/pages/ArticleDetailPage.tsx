@@ -40,7 +40,7 @@ const ArticleDetailPage = () => {
         <div className="max-w-2xl mx-auto space-y-6 flex flex-col items-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#123B7A]">Have Questions About Your Financial Strategy?</h2>
           <a 
-            href="https://wa.me/919987974931" 
+            href="https://wa.link/fudqk8" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-flex items-center justify-center gap-2 bg-[#123B7A] text-white px-6 sm:px-10 py-3.5 sm:py-4 rounded-lg font-semibold hover:bg-[#0B2F6B] whitespace-nowrap min-h-[50px] w-auto max-w-full text-center"

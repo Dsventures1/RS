@@ -5,10 +5,15 @@ const Footer = () => {
     <footer className="bg-[#172554] text-white py-12 px-6 md:py-16 md:px-12 text-sm font-sans">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 mb-12">
              <div className='space-y-4'>
-                <div className="font-bold text-2xl tracking-tight">RS Financial Services</div>
-                <p className='opacity-80 leading-relaxed max-w-xs'>
-                    We provide bespoke financial advisory services designed to secure your future. Through meticulous planning and proactive growth strategies, we help you navigate complex financial landscapes with confidence.
-                </p>
+                <div className="bg-white rounded-xl inline-flex items-center justify-center h-[70px] md:h-[85px] w-[160px] md:w-[190px] shadow-sm relative overflow-hidden">
+                  <img 
+                    src="https://i.ibb.co/yFXv6Nxh/Screenshot-2026-08-20-000740.png" 
+                    alt="RS Financial Services" 
+                    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[48%] h-[160%] md:h-[170%] w-auto object-contain mix-blend-multiply contrast-[1.1]" 
+                    style={{ imageRendering: '-webkit-optimize-contrast' }}
+                  />
+                </div>
+                <div className="font-bold text-xl tracking-tight text-white">RS Financial Services</div>
              </div>
              <div className='space-y-3'>
                 <h4 className='font-bold mb-4 text-base'>Company</h4>

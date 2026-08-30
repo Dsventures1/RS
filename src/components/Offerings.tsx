@@ -42,7 +42,7 @@ const Offerings = () => {
               <div className="p-[30px] flex flex-col flex-grow">
                 <h3 className="text-[20px] font-bold text-[#123B7A] mb-3">{p.title}</h3>
                 <p className="text-[#607089] text-[15px] leading-[1.6] mb-6 flex-grow">{p.desc}</p>
-                <a href="https://wa.me/919987974931" target="_blank" rel="noopener noreferrer" className="text-[#2563EB] font-semibold text-[16px] hover:text-[#123B7A] transition-colors">
+                <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="text-[#2563EB] font-semibold text-[16px] hover:text-[#123B7A] transition-colors">
                   Explore Solution →
                 </a>
               </div>
@@ -57,7 +57,7 @@ const Offerings = () => {
             Speak with RS Financial Services to explore the right investment and wealth solutions for your financial journey.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <a href="https://wa.me/919987974931" target="_blank" rel="noopener noreferrer" className="bg-[#123B8F] text-white px-8 py-4 rounded-[12px] shadow-md hover:bg-[#1e4ba1] transition-colors font-semibold w-full sm:w-auto text-center">Book a Consultation</a>
+            <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-[#123B8F] text-white px-8 py-4 rounded-[12px] shadow-md hover:bg-[#1e4ba1] transition-colors font-semibold w-full sm:w-auto text-center">Book a Consultation</a>
             <a href="/services" className="bg-white text-[#123B8F] border border-[#123B8F] px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#F4F8FD] transition-colors font-semibold w-full sm:w-auto text-center">Explore Services</a>
           </div>
         </div>

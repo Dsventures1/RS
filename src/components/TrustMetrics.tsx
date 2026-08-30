@@ -1,10 +1,10 @@
 import React from 'react';
 
 const metrics = [
-  { label: 'Assets Under Management', value: '₹8.5+ Cr' },
-  { label: 'Clients', value: '200+' },
-  { label: 'Years of Experience', value: '12+' },
-  { label: 'Awards & Recognitions', value: '20+' },
+  { label: 'Assets Under Management', value: '₹8 Cr' },
+  { label: 'Clients', value: '150+' },
+  { label: 'Years of Experience', value: '4+' },
+  { label: 'Awards', value: '5' },
 ];
 
 const TrustMetrics = () => {

@@ -25,7 +25,7 @@ const WhyUsPage = () => {
                 <h1 className="text-3xl md:text-6xl font-bold leading-[1.1] text-[#123B7A]">Why Your Wealth Deserves a More Thoughtful Approach</h1>
                 <p className="text-base md:text-xl text-[#64748B] leading-relaxed">Financial decisions are deeply personal. At RS Financial Services, we combine experience, thoughtful planning and ongoing guidance to help you make informed decisions with confidence.</p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-4 md:pt-6">
-                    <a href="https://wa.me/919987974931" target="_blank" rel="noopener noreferrer" className="bg-[#123B7A] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0B2F6B] transition-colors text-center">Book a Consultation</a>
+                    <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-[#123B7A] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0B2F6B] transition-colors text-center">Book a Consultation</a>
                     <a href="/about" className="bg-white border-2 border-[#123B7A] text-[#123B7A] px-8 py-4 rounded-lg font-semibold hover:bg-[#F4F8FC] transition-colors text-center">Explore Our Approach →</a>
                 </div>
             </div>
@@ -96,7 +96,7 @@ const WhyUsPage = () => {
             <p className="text-[#E2E8F0] text-base md:text-lg">Start a conversation with RS Financial Services and explore how thoughtful financial planning can support your goals.</p>
             <div className="flex justify-center items-center w-full pt-2">
               <a 
-                href="https://wa.me/919987974931" 
+                href="https://wa.link/fudqk8" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#0B2F6B] px-6 sm:px-10 py-3.5 sm:py-4 rounded-lg font-semibold hover:bg-[#F4F8FC] transition-colors whitespace-nowrap min-h-[50px] w-auto max-w-full text-center"

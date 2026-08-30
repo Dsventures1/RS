@@ -31,7 +31,7 @@ const ServicesPage = () => {
             From wealth creation to protection and diversification, we provide thoughtfully selected financial solutions designed to support every stage of your financial journey.
           </p>
           <div className="flex justify-center gap-4 mt-10">
-            <a href="https://wa.me/919987974931" target="_blank" rel="noopener noreferrer" className="bg-[#173B7A] text-white px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#1e4ba1] transition-colors font-semibold">Book a Consultation</a>
+            <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-[#173B7A] text-white px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#1e4ba1] transition-colors font-semibold">Book a Consultation</a>
             <button className="text-[#173B7A] bg-white border border-[#173B7A] px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#F8FAFC] transition-colors font-semibold">Explore Our Services</button>
           </div>
         </div>
@@ -67,7 +67,7 @@ const ServicesPage = () => {
                 <div className="p-[30px] flex flex-col flex-grow">
                   <h3 className="text-[20px] font-bold text-[#123B7A] mb-3">{p.title}</h3>
                   <p className="text-[#607089] text-[15px] leading-[1.6] mb-6 flex-grow">{p.desc}</p>
-                  <a href="https://wa.me/919987974931" target="_blank" rel="noopener noreferrer" className="text-[#2563EB] font-semibold text-[16px] hover:text-[#123B7A] transition-colors">
+                  <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="text-[#2563EB] font-semibold text-[16px] hover:text-[#123B7A] transition-colors">
                     Explore Solution →
                   </a>
                 </div>
@@ -86,7 +86,7 @@ const ServicesPage = () => {
             <p className="text-[#52627A] text-[18px] leading-[1.7] mb-8">
               We believe financial planning should begin with understanding you — your goals, priorities, risk profile, time horizon and future aspirations. Our role is to help connect the right financial solutions with the bigger picture.
             </p>
-            <a href="https://wa.me/919987974931" target="_blank" rel="noopener noreferrer" className="bg-[#173B7A] text-white px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#1e4ba1] transition-colors font-semibold">Book a Consultation →</a>
+            <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-[#173B7A] text-white px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#1e4ba1] transition-colors font-semibold">Book a Consultation →</a>
           </div>
           <div className="md:w-1/2 flex items-center justify-center">
             <img 
@@ -127,7 +127,7 @@ const ServicesPage = () => {
           <p className="text-[#E3EAF4] text-[18px] mb-10 max-w-[600px] mx-auto">
             Speak with RS Financial Services to explore solutions designed around your financial journey.
           </p>
-          <a href="https://wa.me/919987974931" target="_blank" rel="noopener noreferrer" className="bg-white text-[#123B7A] px-10 py-4 rounded-[12px] shadow-sm hover:bg-[#F8FAFC] transition-colors font-semibold">Book a Consultation</a>
+          <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#123B7A] px-10 py-4 rounded-[12px] shadow-sm hover:bg-[#F8FAFC] transition-colors font-semibold">Book a Consultation</a>
         </div>
       </section>
       

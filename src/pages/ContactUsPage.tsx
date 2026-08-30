@@ -44,7 +44,7 @@ const ContactUsPage = () => {
                 <h2 className="text-2xl sm:text-3xl font-bold text-[#123B7A] mb-4 sm:mb-6">Prefer WhatsApp?</h2>
                 <p className="text-[#64748B] text-sm sm:text-base mb-6 sm:mb-8">Click the button below to start a direct conversation with our team on WhatsApp.</p>
                 <a 
-                    href="https://wa.me/919987974931" 
+                    href="https://wa.link/fudqk8" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-3 bg-[#25D366] text-white px-6 sm:px-10 py-3.5 sm:py-4 rounded-lg font-semibold hover:bg-[#128C7E] transition-colors whitespace-nowrap min-h-[50px] w-auto max-w-full text-sm sm:text-base shadow-sm"
