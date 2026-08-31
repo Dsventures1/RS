@@ -17,7 +17,7 @@ const WhyChoose = () => {
         {/* SECTION HEADER */}
         <div className="text-center mb-[60px]">
           <span className="text-[#2563EB] font-bold tracking-[2px] text-[14px] uppercase">WHY RS FINANCIAL SERVICES</span>
-          <h2 className="text-[48px] font-extrabold text-[#123B8F] leading-[1.15] mt-4">A more thoughtful approach to wealth</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-[48px] font-extrabold text-[#123B8F] leading-[1.15] mt-4">A more thoughtful approach to wealth</h2>
           <p className="text-[#52627A] text-[17px] leading-[1.7] max-w-[720px] mx-auto mt-6">
             Financial decisions are personal. Our approach combines experience, thoughtful planning and ongoing guidance to help you make confident decisions at every stage of your financial journey.
           </p>

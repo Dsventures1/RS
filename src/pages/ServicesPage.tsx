@@ -22,26 +22,12 @@ const ServicesPage = () => {
     <div className="min-h-screen bg-[#F8FAFC]">
       <Header />
       
-      {/* Hero Section */}
-      <section className="bg-white py-[100px] border-b border-[#E2E8F0]">
-        <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <span className="text-[#2563EB] font-bold tracking-[3px] text-[14px] uppercase">OUR SERVICES</span>
-          <h1 className="text-3xl md:text-[56px] font-bold text-[#123B8F] leading-[1.1] mt-4">Solutions Designed Around Your Financial Goals</h1>
-          <p className="text-[#52627A] text-[18px] leading-[1.7] max-w-[750px] mx-auto mt-6">
-            From wealth creation to protection and diversification, we provide thoughtfully selected financial solutions designed to support every stage of your financial journey.
-          </p>
-          <div className="flex justify-center gap-4 mt-10">
-            <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-[#173B7A] text-white px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#1e4ba1] transition-colors font-semibold">Book a Consultation</a>
-            <button className="text-[#173B7A] bg-white border border-[#173B7A] px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#F8FAFC] transition-colors font-semibold">Explore Our Services</button>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Services Intro */}
       <section className="py-[100px]">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <span className="text-[#2563EB] font-bold tracking-[3px] text-[14px] uppercase">OUR OFFERINGS</span>
-          <h2 className="text-[40px] font-bold text-[#123B8F] leading-[1.1] mt-4">Financial Solutions Built Around Your Needs</h2>
+          <span className="text-[#2563EB] font-bold tracking-[3px] text-lg md:text-xl uppercase">OUR OFFERINGS</span>
+          <h2 className="text-3xl md:text-[40px] font-bold text-[#123B8F] leading-[1.1] mt-4">Financial solutions built around your needs</h2>
           <p className="text-[#52627A] text-[18px] leading-[1.7] max-w-[750px] mx-auto mt-6">
             Every financial journey is different. Our approach combines thoughtful planning, diversified investment solutions and long-term guidance to help you make informed financial decisions with confidence.
           </p>
@@ -82,8 +68,8 @@ const ServicesPage = () => {
         <div className="max-w-[1200px] mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <span className="text-[#2563EB] font-bold tracking-[3px] text-[14px] uppercase">PERSONALIZED GUIDANCE</span>
-            <h2 className="text-[40px] font-bold text-[#123B8F] leading-[1.1] mt-4 mb-6">More Than Products. A Strategy Built Around You.</h2>
-            <p className="text-[#52627A] text-[18px] leading-[1.7] mb-8">
+            <h2 className="text-3xl md:text-[40px] font-bold text-[#123B8F] leading-[1.1] mt-4 mb-6">More than products. A strategy built around you.</h2>
+            <p className="text-[#52627A] text-[15px] md:text-[18px] leading-[1.6] md:leading-[1.7] mb-8">
               We believe financial planning should begin with understanding you — your goals, priorities, risk profile, time horizon and future aspirations. Our role is to help connect the right financial solutions with the bigger picture.
             </p>
             <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-[#173B7A] text-white px-8 py-4 rounded-[12px] shadow-sm hover:bg-[#1e4ba1] transition-colors font-semibold">Book a Consultation →</a>
@@ -102,7 +88,7 @@ const ServicesPage = () => {
       <section className="py-[100px]">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
           <span className="text-[#2563EB] font-bold tracking-[3px] text-[14px] uppercase">OUR APPROACH</span>
-          <h2 className="text-3xl md:text-[40px] font-bold text-[#123B8F] leading-[1.1] mt-4 mb-16">From Financial Goals to a Clearer Strategy</h2>
+          <h2 className="text-3xl md:text-[40px] font-bold text-[#123B8F] leading-[1.1] mt-4 mb-16">From financial goals to a clearer strategy.</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
             {[
@@ -117,17 +103,6 @@ const ServicesPage = () => {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-[#123B7A] py-[80px]">
-        <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <h2 className="text-2xl md:text-[40px] font-bold text-white leading-[1.1] mb-6">Let's Build a Financial Strategy Around Your Goals.</h2>
-          <p className="text-[#E3EAF4] text-[18px] mb-10 max-w-[600px] mx-auto">
-            Speak with RS Financial Services to explore solutions designed around your financial journey.
-          </p>
-          <a href="https://wa.link/fudqk8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#123B7A] px-10 py-4 rounded-[12px] shadow-sm hover:bg-[#F8FAFC] transition-colors font-semibold">Book a Consultation</a>
         </div>
       </section>
       

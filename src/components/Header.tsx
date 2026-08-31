@@ -33,12 +33,12 @@ const Header = () => {
 
   return (
     <header className="h-[100px] md:h-[120px] lg:h-[130px] bg-white border-b border-[#E5EAF2] px-4 sm:px-6 md:px-10 lg:px-12 flex items-center justify-between sticky top-0 z-50 transition-all shadow-sm">
-      <div className="flex items-center h-full overflow-hidden w-[200px] sm:w-[240px] md:w-[280px]">
+      <div className="flex items-center h-full overflow-hidden w-[150px] sm:w-[200px] md:w-[280px]">
         <Link to="/" className="flex items-center justify-start group h-full w-full relative">
           <img 
             src="https://i.ibb.co/yFXv6Nxh/Screenshot-2026-08-20-000740.png" 
             alt="RS Financial Services" 
-            className="absolute top-1/2 -translate-y-1/2 left-0 h-[150%] sm:h-[160%] md:h-[170%] w-auto object-contain mix-blend-multiply contrast-[1.1] transition-transform duration-300 group-hover:scale-[1.05] origin-left" 
+            className="absolute top-1/2 -translate-y-1/2 left-0 h-auto w-full max-h-[200%] md:h-[170%] md:w-auto object-contain mix-blend-multiply contrast-[1.1] transition-transform duration-300 group-hover:scale-[1.05] origin-left" 
             style={{ imageRendering: '-webkit-optimize-contrast' }}
             loading="eager"
           />

@@ -18,15 +18,22 @@ const Footer = () => {
              </div>
              <div className='space-y-3 flex flex-col'>
                 <h4 className='font-bold mb-4 text-base'>Company</h4>
-                <Link to="/" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Home</Link>
-                <Link to="/about" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>About Us</Link>
-                <Link to="/services" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Services</Link>
-                <Link to="/contact" className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Contact Us</Link>
+                <Link to="/" onClick={() => window.scrollTo(0, 0)} className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Home</Link>
+                <Link to="/about" onClick={() => window.scrollTo(0, 0)} className='opacity-70 hover:text-blue-300 transition-colors w-fit'>About Us</Link>
+                <Link to="/services" onClick={() => window.scrollTo(0, 0)} className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Services</Link>
+                <Link to="/contact" onClick={() => window.scrollTo(0, 0)} className='opacity-70 hover:text-blue-300 transition-colors w-fit'>Contact Us</Link>
              </div>
              <div className='space-y-3 flex flex-col'>
                 <h4 className='font-bold mb-4 text-base'>Offerings</h4>
                 {['Mutual Funds', 'Equity & ETFs', 'Portfolio Management Services (PMS)', 'Insurances'].map(link => (
-                    <Link key={link} to="/services" className='opacity-70 cursor-pointer hover:text-blue-300 transition-colors w-fit'>{link}</Link>
+                    <Link 
+                        key={link} 
+                        to="/services" 
+                        onClick={() => window.scrollTo(0, 0)}
+                        className='opacity-70 cursor-pointer hover:text-blue-300 transition-colors w-fit'
+                    >
+                        {link}
+                    </Link>
                 ))}
              </div>
              <div className='space-y-3'>

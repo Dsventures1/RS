@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -27,9 +28,9 @@ const About = () => {
               Our approach is built around understanding each client's goals, risk profile, financial priorities and future aspirations — and then creating a strategy designed around them.
             </p>
           </div>
-          <a href="/services" className="inline-block text-[#2563EB] font-semibold text-base md:text-[18px] hover:text-[#123B8F] transition-colors">
+          <Link to="/about" className="inline-block text-[#2563EB] font-semibold text-base md:text-[18px] hover:text-[#123B8F] transition-colors">
             Discover Our Approach →
-          </a>
+          </Link>
         </div>
       </div>
     </section>

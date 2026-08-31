@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TrustMetrics from '../components/TrustMetrics';
@@ -33,10 +34,9 @@ const AboutUs = () => {
                 </div>
                 <div>
                     <p className="text-[#2563EB] font-semibold tracking-wider text-xs md:text-sm uppercase mb-3 md:mb-4">WHO WE ARE</p>
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#123B7A] mb-4 md:mb-6">Your Wealth Deserves More Than Just An Investment.</h2>
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#123B7A] mb-4 md:mb-6">Your wealth deserves more than just an investment.</h2>
                     <p className="text-[#64748B] text-sm md:text-base mb-4 md:mb-6 leading-relaxed">RS Financial Services helps individuals and families make informed financial decisions through personalized investment planning, wealth management and long-term financial strategies.</p>
                     <p className="text-[#64748B] text-sm md:text-base mb-6 md:mb-8 leading-relaxed">Our approach is built around understanding each client's goals, risk profile, financial priorities and future aspirations — and then creating a strategy designed around them.</p>
-                    <a href="/services" className="text-[#2563EB] font-semibold text-sm md:text-base">Discover Our Approach →</a>
                 </div>
             </div>
         </section>

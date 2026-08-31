@@ -11,7 +11,7 @@ const ApproachSteps = () => {
   return (
     <section className="py-20 px-12 bg-white">
       <div className="container mx-auto text-center mb-16">
-        <h2 className="text-4xl font-bold text-[#123B7A] mb-4">How We Work With You</h2>
+        <h2 className="text-4xl font-bold text-[#123B7A] mb-4">How We Work</h2>
         <p className="text-[#64748B] text-lg">A simple, structured approach to building and managing your financial future.</p>
       </div>
       <div className="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
